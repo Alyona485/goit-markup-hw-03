@@ -83,6 +83,7 @@ ul,ol{
     background: #2e2f42;
      background-color: #404BBF cursor/ pointer;
      padding: 188px 0;
+     max-width: 496px;
 }
     
 
@@ -113,6 +114,9 @@ ul,ol{
     background-color: #4D5AE5;
     display: block;
     margin: 0 auto;
+    min-width: 169px;
+    border: none;
+    border-radius: 4px;
 }
 .button:hover{
    background-color: #404BBF;
@@ -127,7 +131,16 @@ ul,ol{
    background-color: #FFFFFF;
     
 }
+.container advantages{
+    padding: 120px 0;
+    margin-bottom: 8px;
+}
 
+.advantages-item{
+    display: flex;
+    gap: 24px;
+    width: calc((100%-72px))/4;
+}
 .advantages-title-name {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -152,7 +165,13 @@ ul,ol{
     background: #f4f4fd;
     color: #2e2f42;
 }
-
+.container team{
+    padding: 120px 0;
+    margin-bottom: 72px;
+    padding: 32px 0;
+    text-align: center;
+    margin-bottom: 8px;
+}
 .team-title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -164,6 +183,10 @@ ul,ol{
 }
 .team-our {
     background-color: #FFFFFF;
+    display: flex;
+    gap: 24px;
+    width: calc((100%-72px)/4);
+    border-radius: 0px 0px 4px 4px;
 }
 .team-img {
     background-color: #FFFFFF;
@@ -200,7 +223,13 @@ ul,ol{
     text-align: center;
     text-transform: capitalize;
 }
-
+.container portfolio{
+    padding: 120px 0 120px 0;
+    margin-bottom: 72px;
+    padding: 32px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
 .portfolio-title {
 font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -209,7 +238,13 @@ font-family: "Roboto", sans-serif;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-
+.portfolio-item{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    width: calc((100%-48px)/3);
+}
 .portfolio-title-name {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -232,6 +267,10 @@ font-family: "Roboto", sans-serif;
 .footer{
     background: #2e2f42;
 }
+
+.portfolio-item{
+    padding: 100px 0;
+}
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -239,7 +278,10 @@ font-family: "Roboto", sans-serif;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;}
+    color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
+}
 
 .logo-studio-footer {
     color: #2e2f42;
