@@ -86,7 +86,7 @@ ul,ol{
     background-color: #404BBF cursor/ pointer;
    
 }
-.effective-container{
+.containe-effective{
     max-width: 496px;
     margin: 48px;
     margin: auto;
@@ -264,8 +264,8 @@ ul,ol{
     border: 1px solid #e7e9fc;
     border-top: none;
     padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    padding: 32px 16px;
+   
+   
 }
 .portfolio-title {
     font-family: "Roboto", sans-serif;
