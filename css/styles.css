@@ -83,12 +83,14 @@ ul,ol{
 .effective{
     background: #2e2f42;
     padding: 188px 0;
-    font-style: normal;
     background-color: #404BBF cursor/ pointer;
    
 }
-   .container{
+   .effective-container{
     max-width: 496px;
+    margin: 48px;
+    margin: auto;
+
    }
 
 .title {
@@ -133,10 +135,7 @@ ul,ol{
    background-color: #404BBF;
 }
 .advantages {
-   font-style: normal;
    background-color: #F4F4FD;
-   background-color: #FFFFFF;
-   margin-bottom: 8px;
    padding: 120px 0;
 }
 .container advantages{
@@ -148,12 +147,10 @@ ul,ol{
 .advantages-list{
     display: flex;
     gap: 24px;
-    padding: 0 150px;
-    margin-bottom: 8px;
-    width: calc((100%-72px))/4;
+
 }
 .advantages-item{
-    width: calc((100%-72px))/4;
+    width: calc((100% - 72px) / 4);
     
 }
 .advantages-title-name {
@@ -180,6 +177,7 @@ ul,ol{
     text-transform: capitalize;
     background: #f4f4fd;
     color: #2e2f42;
+    padding:0 120px 0 120px;
 }
 .container team{
     padding: 120px 0;
@@ -208,8 +206,7 @@ ul,ol{
 
 .team-our {
     background-color: #FFFFFF;
-    padding: 20px;
-    width: calc((100%-72px)/4);
+    width: calc((100% - 72px) /4 );
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
 }
@@ -240,7 +237,7 @@ ul,ol{
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-   padding: 32px 0;
+   
 
 }
 .portfolio {
@@ -266,7 +263,7 @@ ul,ol{
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 72px;
-    margin-bottom: 8px;
+  
 }
 .portfolio-list{
     display: flex;
@@ -274,11 +271,11 @@ ul,ol{
     row-gap: 48px;
     background-color: #FFFFFF;
     flex-wrap: wrap;
-    width: calc((100%-48px)/3);
+    
 }
 .portfolio-item{
-    width: calc((100%-48px)/3);
-    margin: 0 auto;
+    width: calc((100% - 48px) / 3);
+   
 }
 
 .img{
@@ -301,8 +298,7 @@ ul,ol{
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: #434455;
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
+   
 }
   
 
@@ -338,5 +334,5 @@ ul,ol{
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    
+    max-width: 254px;
 }
