@@ -81,13 +81,13 @@ ul,ol{
 
 
 .effective{
-    font-style: normal;
     background: #2e2f42;
-     background-color: #404BBF cursor/ pointer;
     padding: 188px 0;
-    max-width: 496px;
+    font-style: normal;
+    background-color: #404BBF cursor/ pointer;
+   
 }
-   .container effective{
+   .container{
     max-width: 496px;
    }
 
@@ -101,6 +101,8 @@ ul,ol{
     text-align: center;
     color: #fff;
     cursor: pointer;
+    max-width: 496px;
+    
     }
 
 
@@ -161,6 +163,7 @@ ul,ol{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    
 }
 
 .advantages-title-text {
