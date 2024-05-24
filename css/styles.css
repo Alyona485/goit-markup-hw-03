@@ -140,6 +140,7 @@ ul,ol{
 }
 .container advantages{
     padding: 120px 0;
+    margin-bottom: 8px;
 }
 .visually-hidden{
     position: absolute;
@@ -263,7 +264,7 @@ ul,ol{
     border: 1px solid #e7e9fc;
     border-top: none;
     padding: 32px 16px;
-   
+    margin-bottom: 8px;
    
 }
 .portfolio-title {
