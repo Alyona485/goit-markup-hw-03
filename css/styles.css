@@ -19,7 +19,7 @@ h1,h2,h3,h4,h5,h6,p{
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-    
+
 }
 .header{
     border-bottom: 1px solid #e7e9fc;
@@ -193,9 +193,7 @@ h1,h2,h3,h4,h5,h6,p{
     color: #2e2f42;
     padding:120px 0;
 }
-.container {
-    text-align: center;
-}
+
 .team-title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -257,12 +255,7 @@ h1,h2,h3,h4,h5,h6,p{
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.container{
-    border: 1px solid #e7e9fc;
-    border-top: none;
-    margin-bottom: 8px;
-   
-}
+
 .portfolio-title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -321,9 +314,7 @@ h1,h2,h3,h4,h5,h6,p{
    
 }
 
-.container {
-    padding: 100px 0;
-}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
