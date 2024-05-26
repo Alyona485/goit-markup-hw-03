@@ -86,12 +86,13 @@ h1,h2,h3,h4,h5,h6,p{
     background: #2e2f42;
     padding: 188px 0;
     background-color: #404BBF cursor/ pointer;
-   
-}
-.container effective {
     max-width: 496px;
-    margin: 48px;
-    margin: auto;
+    margin: 0 auto 48px auto;
+}
+.container{
+   width: 1158px;
+   padding: 0 15px;
+   margin: 0 auto;
 
    }
 
@@ -140,7 +141,7 @@ h1,h2,h3,h4,h5,h6,p{
    background-color: #F4F4FD;
    padding: 120px 0;
 }
-.container advantages{
+.container{
     padding: 120px 0;
     margin-bottom: 8px;
 }
@@ -192,7 +193,7 @@ h1,h2,h3,h4,h5,h6,p{
     color: #2e2f42;
     padding:120px 0;
 }
-.container team {
+.container {
     padding: 120px 0;
     margin-bottom: 72px;
     padding: 32px 0;
@@ -257,11 +258,10 @@ h1,h2,h3,h4,h5,h6,p{
     font-style: normal;
     text-align: center;
     text-transform: capitalize;
-    margin-bottom: 8px;
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.container portfolio{
+.container{
     padding: 32px;
     border: 1px solid #e7e9fc;
     border-top: none;
@@ -327,7 +327,7 @@ h1,h2,h3,h4,h5,h6,p{
     padding: 100px 0;
 }
 
-.container footer{
+.container {
     padding: 100px 0;
 }
 .logo {
@@ -354,5 +354,5 @@ h1,h2,h3,h4,h5,h6,p{
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    max-width: 254px;
+    max-width: 264px;
 }
